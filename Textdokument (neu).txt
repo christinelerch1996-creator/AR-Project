@@ -1,0 +1,25 @@
+!doctype html
+html lang=en
+head
+ meta charset=utf-8
+ meta name=viewport content=width=device-width, initial-scale=1
+ title3D Model Viewertitle
+ script type=module src=httpsunpkg.com@googlemodel-viewerdistmodelviewer.min.jsscript
+ style
+ html, body { margin 0; height 100%; }
+ model-viewer { width 100%; height 100%; }
+ style
+head
+body
+ model-viewer
+ src=model.glb
+ alt=A 3D model of [model]
+ ar
+ ar-modes=webxr scene-viewer quick-look
+ camera-controls
+ auto-rotate
+ autoplay
+ 
+ model-viewer
+body
+html
